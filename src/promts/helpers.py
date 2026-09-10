@@ -5,3 +5,9 @@ def odd_numbers_and_average(numbers):
 	return odd_numbers, average
 
 
+def calculate_average(numbers):
+	"""Calculate and return the average value of a list of numbers."""
+	if not numbers:
+		return None
+	return sum(numbers) / len(numbers)
+
